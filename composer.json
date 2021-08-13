@@ -1,0 +1,22 @@
+{
+  "name": "type/company",
+  "description": "Generic company models",
+  "keywords": [
+    "company"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Keven",
+      "email": "hello@keven.fr"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Type\\Company\\": "src"
+    }
+  }
+}
